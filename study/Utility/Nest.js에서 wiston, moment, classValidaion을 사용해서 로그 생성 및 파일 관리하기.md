@@ -108,3 +108,6 @@ export const customMessageConvert = (property: string, type: string) => {
   }
 })
 ```
+
+### 5. 로그 파일 생성 확인
+![image.png](https://lime-demo.s3.amazonaws.com/posts/1678788630086_image.png)
