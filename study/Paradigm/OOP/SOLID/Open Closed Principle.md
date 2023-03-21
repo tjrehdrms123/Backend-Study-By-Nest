@@ -38,21 +38,21 @@ cat.speak();
 
 ```js
 if(this.type === "cat"){
-    console.log("냐용");
-  } else if(this.type === "dog"){
-    console.log("왈왈");
-  } else if (this.type === "chicken"){
-    console.log("꼬끼온");
-  } else {
-    throw new Error("정의되지 않은 동물입니다.");
-  }
+  console.log("냐용");
+} else if(this.type === "dog"){
+  console.log("왈왈");
+} else if (this.type === "chicken"){
+  console.log("꼬끼온");
+} else {
+  throw new Error("정의되지 않은 동물입니다.");
+}
 ```
 
 ## OCP 적용 후 예제
 추상화를 생각하면서 구현부의 코드를 추상화했습니다.
 기존 기능은 수정하지 않아도 새로운 기능을 확장할 수 있어졌습니다.
 
-```ts
+```js
 abstract class Animal{
   abstract speak(): void;
 }
@@ -74,4 +74,22 @@ cat.speak();
 
 let chicken = new Chicken();
 chicken.speak();
+```
+
+### OCP 적용 후 이점
+`OCP`의 규칙을 지키지 않을때 비지니스 로직의 중복의 가능성이 높아진다. 그에 따라서 변경이 일어났을때 동일하게 변경해줘야된다.
+프로그램 예약이 무료였다가 유료로 변경되었다고 가정했을때 확장이 아닌 수정을 한다면 코드의 가독성이 떨어지고 공통변수에 상태에 따라 접근한다고 한다면 추후 어떤 값이 변경시켰는지 어느 시점에 변경되었는지 파악하기 힘들 것이다. 
+
+```js
+class 프로그램{
+  // EX) 가격 추가 예정 price
+  예약하기(){
+    if(청소년일떄){
+
+    }
+    if(성인일때){
+
+    }
+  }
+}
 ```
