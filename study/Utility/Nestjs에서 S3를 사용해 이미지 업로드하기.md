@@ -9,14 +9,14 @@ npm install aws-sdk
 
 ### 2. 개발에 들어가기전 로직 및 기능 설계
 
-> 프론트 React에서 사용하는 에디터(toast-ui)에서 이미지를 업로드하면 백엔드 Nestjs에서 S3에 이미지 업로드 후 URL 반환한다. 이미지 수정은 기존이미지를 지우고 덥어 씌우는 방식으로 진행예정이다.
+> 프론트 React에서 사용하는 에디터(toast-ui)에서 이미지를 업로드하면 백엔드 Nestjs에서 S3에 이미지 업로드 후 URL 반환합니다 이미지 수정은 기존이미지를 지우고 덥어 씌우는 방식으로 진행예정입니다.
 
 ### 3. 필요한 코드 작성
 
 > 파일 위치: aws.service.ts
 > 설명: 파일을 업로드, 파일 삭제, 업로드한 파일 URL 반환하는 메소드가 있다
 
-> AWS S3 SDK를 사용할 수 있도록 환경 변수에 선언해둔 `S3ACCESSKEY`, `S3SECERTKEY`, `S3REGION`, `S3BUCKET`을 사용해 awsS3를 세팅한다.
+> AWS S3 SDK를 사용할 수 있도록 환경 변수에 선언해둔 `S3ACCESSKEY`, `S3SECERTKEY`, `S3REGION`, `S3BUCKET`을 사용해 awsS3를 세팅합니다
 
 ```js
 import * as path from 'path';
@@ -99,7 +99,7 @@ export class AwsService {
 
 > 파일 위치: posts > controller > posts.controller.ts
 > 파일 설명: 위에서 작성한 S3 업로드 메소드를 호출하는 컨트롤러 코드입니다
-> 주의할 점 : 이미지 업로드 API를 호출할때 `multipart/form-data`타입으로 호출해줘야 하고 `FileInterceptor`에 선언한것 처럼 필드 명은 `image`로 호출되어야 한다.
+> 주의할 점 : 이미지 업로드 API를 호출할때 `multipart/form-data`타입으로 호출해줘야 하고 `FileInterceptor`에 선언한것 처럼 필드 명은 `image`로 호출되어야 합니다
 
 ```js
 @ApiOperation({ summary: '에디터 이미지 업로드' })

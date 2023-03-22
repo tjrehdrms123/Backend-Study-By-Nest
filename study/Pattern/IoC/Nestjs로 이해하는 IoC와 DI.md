@@ -42,10 +42,10 @@ beforeInstance.instance.hello()
 
 > IoC 적용 후 Nestjs의 예시 사례
 
-> before의 class에서 TempInstance class의 라이프 사이클에는 전혀 관여하지 않는다. Nest가 IoC 컨테이너가 직접 객체의 생명주기를 관리해주기 때문이다.
+> before의 class에서 TempInstance class의 라이프 사이클에는 전혀 관여하지 않는다. Nest가 IoC 컨테이너가 직접 객체의 생명주기를 관리해주기 때문입니다.
 
 ```js
-# TempInstance class는 `@Injectable()` 데코레이터가 있으므로 의존성 주입이 가능한 class이다
+# TempInstance class는 `@Injectable()` 데코레이터가 있으므로 의존성 주입이 가능한 class입니다
 @Injectable()
 export class TempInstance {
   constructor(
