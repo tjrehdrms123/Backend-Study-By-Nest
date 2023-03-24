@@ -1,7 +1,7 @@
 # Nestjs 기본 예제 
 
 ## .env
-```
+```shell
 #SERVER
 PORT=8000
 
@@ -19,13 +19,13 @@ HOST_URL="http://localhost"
 ```
 
 ## 1. Nest Project init / [nest 생성](https://docs.nestjs.com/first-steps)
-```nest cli
+```shell
 $ npm i -g @nestjs/cli
 $ nest new project-name
 ```
 
 ## 2. Module, Controllers, Service init / [cli](https://docs.nestjs.com/cli/usages)
-```nest cli
+```shell
 nest g mo webtoon
 nest g co webtoon
 nest g service webtoon
@@ -62,7 +62,7 @@ export class WebtoonService {
 ## 4. Middleware
 - API 요청에 대한 Logger 미들웨어 생성
 - 미들웨어는 NestModule 인터페이스를 구현(implements)해야된다
-```nest cli
+```shell
 nest g middleware logger
 ```
 
