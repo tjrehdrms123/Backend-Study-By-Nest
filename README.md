@@ -5,16 +5,34 @@
 <details>
 <summary>Node.js</summary>
 
-- [크롤링(스크래핑)하기.md](<https://github.com/tjrehdrms123/TIL/blob/main/study/JS/Node.js/%ED%81%AC%EB%A1%A4%EB%A7%81(%EC%8A%A4%ED%81%AC%EB%9E%98%ED%95%91)%ED%95%98%EA%B8%B0.md>)
+- [크롤링(스크래핑)하기](<https://github.com/tjrehdrms123/TIL/blob/main/study/JS/Node.js/%ED%81%AC%EB%A1%A4%EB%A7%81(%EC%8A%A4%ED%81%AC%EB%9E%98%ED%95%91)%ED%95%98%EA%B8%B0.md>)
 
 </details>
 <details>
 <summary>Nest.js</summary>
 
-- [Nestjs기본 예제.md](https://github.com/tjrehdrms123/TIL/blob/main/study/JS/Node.js/Nest.js/Basic/Nestjs%EA%B8%B0%EB%B3%B8%20%EC%98%88%EC%A0%9C.md)
-- [Nestjs e2e jest 테스트 세팅 및 후기.md](https://github.com/tjrehdrms123/TIL/blob/main/study/JS/Node.js/Nest.js/Testing/Nestjs%20e2e%20jest%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%84%B8%ED%8C%85%20%EB%B0%8F%20%ED%9B%84%EA%B8%B0.md)
-- [Nest.js에서 wiston, moment, classValidaion을 사용해서 로그 생성 및 파일 관리하기.md](https://github.com/tjrehdrms123/TIL/blob/main/study/JS/Node.js/Nest.js/Utility/Nest.js%EC%97%90%EC%84%9C%20wiston%2C%20moment%2C%20classValidaion%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C%20%EB%A1%9C%EA%B7%B8%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%ED%8C%8C%EC%9D%BC%20%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0.md)
-- [Nestjs에서 S3를 사용해 이미지 업로드하기.md](https://github.com/tjrehdrms123/TIL/blob/main/study/JS/Node.js/Nest.js/Utility/Nestjs%EC%97%90%EC%84%9C%20S3%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%B4%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%97%85%EB%A1%9C%EB%93%9C%ED%95%98%EA%B8%B0.md)
+- [Nestjs기본 예제](https://github.com/tjrehdrms123/TIL/blob/main/study/JS/Node.js/Nest.js/Basic/Nestjs%EA%B8%B0%EB%B3%B8%20%EC%98%88%EC%A0%9C.md)
+- [Nestjs e2e jest 테스트 세팅 및 후기](https://github.com/tjrehdrms123/TIL/blob/main/study/JS/Node.js/Nest.js/Testing/Nestjs%20e2e%20jest%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EC%84%B8%ED%8C%85%20%EB%B0%8F%20%ED%9B%84%EA%B8%B0.md)
+- [Nest.js에서 wiston, moment, classValidaion을 사용해서 로그 생성 및 파일 관리하기](https://github.com/tjrehdrms123/TIL/blob/main/study/JS/Node.js/Nest.js/Utility/Nest.js%EC%97%90%EC%84%9C%20wiston%2C%20moment%2C%20classValidaion%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C%20%EB%A1%9C%EA%B7%B8%20%EC%83%9D%EC%84%B1%20%EB%B0%8F%20%ED%8C%8C%EC%9D%BC%20%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0.md)
+- [Nestjs에서 S3를 사용해 이미지 업로드하기](https://github.com/tjrehdrms123/TIL/blob/main/study/JS/Node.js/Nest.js/Utility/Nestjs%EC%97%90%EC%84%9C%20S3%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%B4%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EC%97%85%EB%A1%9C%EB%93%9C%ED%95%98%EA%B8%B0.md)
+
+</details>
+
+# Paradigm
+
+<details>
+<summary>OOP</summary>
+
+- [객채지향프로그래밍이란](https://github.com/tjrehdrms123/TIL/blob/main/study/Paradigm/OOP/%EA%B0%9D%EC%B1%84%EC%A7%80%ED%96%A5%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80.md)
+
+- [내가 사용하는 DTO객체는 객제가 맞는가](https://github.com/tjrehdrms123/TIL/blob/main/study/Paradigm/OOP/%EB%82%B4%EA%B0%80%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20DTO%EA%B0%9D%EC%B2%B4%EB%8A%94%20%EA%B0%9D%EC%A0%9C%EA%B0%80%20%EB%A7%9E%EB%8A%94%EA%B0%80.md)
+
+</details>
+
+<details>
+<summary>AOP</summary>
+
+- [Nestjs의 Request lifecycle과 AOP](https://github.com/tjrehdrms123/TIL/blob/main/study/Paradigm/AOP/Nestjs%EC%9D%98%20Request%20lifecycle%EA%B3%BC%20AOP.md)
 
 </details>
 
