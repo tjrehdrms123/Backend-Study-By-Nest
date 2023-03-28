@@ -26,6 +26,10 @@ Asia/Seoul 타임존으로 변경하는 명령어
 ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
 ```
 
+```
+date
+```
+
 동작확인
 전 : Fri Jan 28 09:14:28 UTC 2022
 후 : Fri Jan 28 18:15:04 KST 2022
