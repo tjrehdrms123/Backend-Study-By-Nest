@@ -22,8 +22,8 @@
   - ![](/study/assets/content_etc_google_analytics_04.png)
 
 ## 다양한 서비스와 연결하기
-Search Console과 연결하기
-![](/study/assets/content_etc_google_analytics_05.png)
-![](/study/assets/content_etc_google_analytics_06.png)
-애드센스와 연결
+1. Search Console 연동 | [Search Console등록하기](https://github.com/tjrehdrms123/TIL/blob/main/study/ETC/GoogleExtension/Google_SearchConsole%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0.md)
+  - ![](/study/assets/content_etc_google_analytics_05.png)
+  - ![](/study/assets/content_etc_google_analytics_06.png)
+1. Analytics 연동 | [Analytics등록하기](https://github.com/tjrehdrms123/TIL/blob/main/study/ETC/GoogleExtension/Google_SearchConsole%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0.md)
 ![](/study/assets/content_etc_google_analytics_07.png)
