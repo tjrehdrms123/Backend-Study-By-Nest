@@ -33,6 +33,7 @@
 
 ## O(1) (constant complexity / 상수시간)
 ![](/study/assets/content_codeingtest_bigO_01.png)
+
 입력값이 증가하더라도 시간이 늘어나지 않습니다.
 입력값의 크기와 관계없이, 즉시 출력값을 얻어낼 수 있습니다.
 
@@ -104,8 +105,45 @@ function binarySearch(array, target) {
 ## O(n2) (quadratic complexity / 제곱시간)
 ![](/study/assets/content_codeingtest_bigO_04.png)
 
+O(n2)은 2차 복잡도(quadratic complexity)라고 부르며, 입력값이 증가함에 따라 시간이 n의 제곱수의 비율로 증가하는 것을 의미한다.
+
+예를 들어 입력값이 1일 경우 1초가 걸리던 알고리즘에 5라는 값을 주었더니 25초가 걸리게 된다면, 이 알고리즘의 시간 복잡도는 O(n2)라고 표현한다.
+
+사용 용도 : 이중 for 문, 삽입정렬(insertion sort), 거품정렬(bubble sort), 선택정렬(selection sort)
+
+```js
+function O_quadratic_algorithm(n) {
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      // do something for 1 second
+    }
+  }
+}
+function another_O_quadratic_algorithm(n) {
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      for (let k = 0; k < n; k++) {
+        // do something for 1 second
+      }
+    }
+  }
+}
+```
+
 ## O(2n) (exponential complexity / 지수시간)
 ![](/study/assets/content_codeingtest_bigO_05.png)
+
+Big-O 표기법 중 가장 느린 시간 복잡도를 가집니다.
+데이터양에 따라 걸리는 시간은 제곱에 비례한다.
+
+```js
+function fibonacci(n) {
+	if (n <= 1) {
+		return 1;
+	}
+	return fibonacci(n - 1) + fibonacci(n - 2);
+}
+```
 
 ## 참고
  - https://hanamon.kr/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-time-complexity-%EC%8B%9C%EA%B0%84-%EB%B3%B5%EC%9E%A1%EB%8F%84/
