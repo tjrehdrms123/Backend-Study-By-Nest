@@ -98,11 +98,11 @@
 
 </details>
 
-# OS
+# ComputerScience
 
 <details>
-<summary>OS</summary>
-
+<summary>CS (ComputerScience)</summary>
+- [자료구조와 알고리즘](https://github.com/tjrehdrms123/TIL/blob/main/study/DataStructure/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%99%80%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
 - [빌드가 뭐고 컴파일은 뭐지](https://github.com/tjrehdrms123/TIL/blob/main/study/Os/%EB%B9%8C%EB%93%9C%EA%B0%80%20%EB%AD%90%EA%B3%A0%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%EC%9D%80%20%EB%AD%90%EC%A7%80.md)
 
 </details>
