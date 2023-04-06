@@ -8,7 +8,7 @@
 **2\. 사전 작업**
 
 * 내부에는 Apache와 같은 웹서버가 당연히 있어야된다.
-* 해당 DDNS [iptime DDNS 등록](https://blog.donggeun.co.kr/view/63bcbb5a0146ab9134570526)처럼 DDNS가 설정되어있어야된다.
+* 해당 DDNS [iptime DDNS 등록](./iptime%EC%97%90%20DDNS%EB%A5%BC%20%EB%93%B1%EB%A1%9D%20%EB%B0%8F%20%EC%99%B8%EB%B6%80%20%EC%A0%91%EC%86%8D%20%ED%8F%AC%ED%8A%B8%20%EC%84%A4%EC%A0%95.md)처럼 DDNS가 설정되어있어야된다.
 
 ![](/study/assets/content_etc_iptime_webserver_01.png)
 
