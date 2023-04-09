@@ -8,8 +8,6 @@
 
 데이터베이스에서 데이터를 정의(define), 저장(store), 검색 및 인출(retrieve), 관리(manage)하기 위해 사용되는 소프트웨어(툴)
 
----
-
 ## SQL
 
 ![](/study/assets/content_databse_basic.png)
@@ -38,11 +36,10 @@ Structured Query Language (구조화 된 쿼리 언어)
   - 일반적으로 관련 데이터를 동일한 컬렉션에 넣습니다.
     - (관계형 데이터베이스처럼 여러 테이블에 나누어 담지 않습니다.)
 
----
-
 ## Scaling (확장)
 
 ![](/study/assets/content_databse_basic_scaling.png)
+
 데이터베이스 서버의 확장성은 두가지로 나누어집니다.
 
 ### Horizontal(수평적) 확장
@@ -60,8 +57,6 @@ Sharding(샤딩)의 개념을 알고있는 NoSQL 데이터베이스는 수평적
 단순히 데이터베이스 서버의 성능을 향상시키는 것입니다.
 
 데이터 저장 방식으로 인해 SQL 데이터베이스는 일반적으로 수직적 확장만 지원합니다.
-
----
 
 ## SQL VS NoSQL
 
