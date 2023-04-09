@@ -27,6 +27,7 @@ Structured Query Language (구조화 된 쿼리 언어)
 ### 데이터의 중복과 무결성 테이블과 관계
 
 `기본 키(Primary Key)` : 한 테이블 내에서 고유한 행(row)을 구별할 수 있는 값
+
 `외래 키(Foreign Key)` : 다른 테이블의 P.K 값이 참조되어 연결된 값
 
 ### No Sql
