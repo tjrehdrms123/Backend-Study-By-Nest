@@ -54,3 +54,9 @@ select * from
 from Customer
 ) tmp_table;
 ```
+
+## 참고
+
+- [https://www.youtube.com/watch?v=oc-ya1MpK5c&list=LL&index=1](https://www.youtube.com/watch?v=oc-ya1MpK5c&list=LL&index=1)
+- [https://data-make.tistory.com/25](https://data-make.tistory.com/25)
+- [https://ju-hy.tistory.com/100](https://ju-hy.tistory.com/100)
