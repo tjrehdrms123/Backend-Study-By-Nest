@@ -1,11 +1,29 @@
-## HTTPS와 SSL 인증서
+# HTTPS와 SSL 인증서
 HTTP 및 HTTPS는 OSI (Open Systems Interconnection) 모델과 TCP/IP 모델에서 모두 응용 프로그램 계층(Application Layer)에 속합니다.
 
 이 계층은 사용자 애플리케이션과 네트워크 간의 상호 작용을 담당하며, 데이터를 응용 프로그램 포맷으로 변환하고 프로토콜과 상호 작용하여 데이터를 전송합니다.
 
-### HTTP (Hypertext Transfer Protocol)와 HTTPS (Hypertext Transfer Protocol Secure)
+## HTTP와 HTTPS
 모두 인터넷을 통해 데이터를 전송하는 데 사용되는 프로토콜입니다. 두 프로토콜의 주요 차이점은 HTTPS가 더 안전한 버전의 HTTP입니다.
 
 HTTP를 사용하여 웹사이트를 방문하면, 웹 서버와 브라우저 간에 전송되는 모든 데이터가 평문으로 전송됩니다. 이는 누구든 이 데이터를 가로챈다면, 비밀번호, 신용카드 번호 및 개인 정보와 같은 민감한 정보를 쉽게 읽을 수 있다는 것을 의미합니다.
 
 HTTPS는 암호화를 사용하여 전송되는 데이터를 보호합니다. HTTPS를 사용하여 웹사이트를 방문하면, 브라우저와 웹 서버 간에 전송되는 모든 데이터가 암호화되므로, 제3자가 해당 데이터를 읽거나 수정할 수 없습니다.
+
+## SSL 인증서
+SSL 인증서는 SSL/TLS 프로토콜을 사용하여 웹사이트와 클라이언트 간의 통신을 안전하게 보호하는데 사용되는 디지털 인증서입니다. SSL 인증서는 웹사이트의 고유한 식별자로 사용되며, 웹사이트의 주소와 공개키를 포함하고 있습니다.
+
+SSL 인증서는 SSL/TLS 프로토콜에서 사용되는 공개키/개인키 암호화 방식을 사용하여 데이터를 암호화하고, 데이터의 무결성을 보장합니다. 이를 통해 중간자 공격, 정보 유출, 위조, 변조 등의 공격으로부터 보호됩니다.
+
+SSL 인증서는 인증 기관(CA, Certificate Authority)에서 발행됩니다. 해당 인증서를 사용하는 웹사이트는 클라이언트에게 안전한 `HTTPS 프로토콜을 제공`할 수 있습니다.
+
+## QnA
+### CloudFlare를 사용 중 일때 SSL 인증서를 서버에 적용하지 않았는데 HTTPS가 적용되는 이유
+CloudFlare는 SSL 인증서를 적용하지 않아도 HTTPS를 적용할 수 있는 기능을 제공합니다. 이를 `Flexible SSL`이라고도 합니다.
+
+Flexible SSL은 클라이언트와 CloudFlare 간의 암호화 연결만 제공하고, CloudFlare와 서버 간의 암호화 연결은 제공하지 않습니다. 클라이언트와 CloudFlare 간의 연결은 HTTPS로 암호화되지만, CloudFlare와 서버 간의 연결은 HTTP로 유지됩니다.
+
+따라서, 서버에 SSL 인증서가 설치되어 있지 않아도 CloudFlare를 통해 HTTPS 연결을 제공할 수 있습니다.
+하지만, 서버와 CloudFlare 간의 연결이 암호화되지 않기 때문에, `서버와 CloudFlare 간의 데이터가 노출될 수 있는 보안 취약점`이 있습니다.
+
+서버와 CloudFlare 간의 연결도 암호화할 수 있는 Full SSL 또는 Full SSL (Strict) 옵션을 사용하는 것이 좋습니다. 이를 위해서는 서버에 SSL 인증서를 설치해야 하며, CloudFlare에서도 SSL 인증서를 적용해야 합니다.
