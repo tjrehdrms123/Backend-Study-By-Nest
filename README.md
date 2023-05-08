@@ -1,4 +1,4 @@
-# 🔥 Today I Learned(TIL) 🔥    
+# 🔥 Today I Learned(TIL) 🔥     
 - [📌JS](./study/JS/js.md)
 
 - [📌PHP]()
