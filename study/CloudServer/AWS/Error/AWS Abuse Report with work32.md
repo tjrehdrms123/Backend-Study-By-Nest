@@ -51,7 +51,7 @@
 </details>
 AWS에서 보내온 메일을 요약하자면 다음과 같습니다.
 
-인스턴스에 `Port Scanning`공격을 받고 있고, 그에 대한 조치를 해야됩니다.
+인스턴스에서 `Port Scanning`공격을 하고 있고, 그에 대한 조치를 해야됩니다.
 
 저는 메일을 늦게 확인했고, 그에 따른 AWS의 조치는 다음과 같았습니다.
 
@@ -66,10 +66,14 @@ Blocked OUTBOUND TCP traffic from instance to remote hosts on port 22
 그에 따른 조치는 다음과 같이 진행 했습니다.
 
 1. 의심스러운 PID 제거
-![](/study/assets/content_cloudserver_aws_abuse_work32.png)
+    ![](/study/assets/content_cloudserver_aws_abuse_work32.png)
+    > SYN Port Scanning 공격이 이뤄 지고 있는것을 확인 할 수 있습니다.
+
 2. 전달 받은 메일 중 log of TCP port scans와 같이 Port Scanning 로그 파일을 보내줍니다. 그에 따라서 공격이 들어온 포트를 다른번호의 포트로 변경했습니다.
 3. 서버에서 확인된 악성 파일 제거 및 Crontab 스케줄러에 등록된 악성 스케줄러 제거했습니다.
-![](/study/assets/content_cloudserver_aws_abuse_work32_crontab.png)
+
+    ![](/study/assets/content_cloudserver_aws_abuse_work32_crontab.png)
+
 
 ## 1차 조치 후 답변
 <details>
