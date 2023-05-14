@@ -60,14 +60,4 @@ Controller에서 Controller를 호출하는 코드가 이상하다고 느낀 저
     $PostItem = $this->PostModel->index();
    ```
 
-2. 가공할 데이터가 있을때 처리는 A,B모델을 상속 받은 더 큰 모델을 만들어서 가공하면된다 라는 조언을 들었습니다. 해당 조언처럼 고수준의 인터페이스를 제공하는 디자인 패턴을 [Facade Patten]()이라고 합니다.
-
-   ```php
-   trait MenuModel {
-   }
-
-   trait PostModel {
-   }
-   class Index extends MenuModel, PostModel{
-   }
-   ```
+2. 가공할 데이터가 있을때 처리는 A,B모델을 상속 받은 더 큰 모델을 만들어서 가공하면된다 라는 조언을 들었습니다. 해당 조언처럼 고수준의 인터페이스를 제공하는 디자인 패턴을 [Facade Patten](/study/Pattern/Facade/Facade%20Patten.md)이라고 합니다.
