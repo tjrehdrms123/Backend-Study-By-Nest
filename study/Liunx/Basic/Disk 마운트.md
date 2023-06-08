@@ -11,12 +11,14 @@ sudo fdisk -l
 2. 파티션 생성
 
 ```bash
+# 마운트할 파티션이 1TB보다 크다면 parted 사용하기
 sudo fdisk 파티션 명
 ```
 
 Command m을 누르면 상세한 도움말을 확인할 수 있습니다.
 
 새로운 파티션을 생성할 경우 n을 누르고 partition type과 partition number, first sector, last sector를 적은 후 w를 입력하여 저장합니다.
+![](/study/assets/content_liunx_mount_fdisk.png)
 
 3. 파티션 포맷
 
@@ -30,6 +32,7 @@ sudo mkfs.ext4 포맷할 파티션 명 #예시: /dev/sdb1
 
 ```bash
 sudo blkid
+# UUID="70a69b4b-45e5-404e-a283-d82ceea9a487" /data ext4 defaults 0 0
 ```
 
 5. mount
@@ -42,7 +45,6 @@ etc/fstab 파일에 아래 내용 추가
 
 sudo vi /etc/fstab
 UUID=확인한 UUID명 / data/폴더명 ext4 defaults 0 0
-
 # 마운트 적용
 sudo mount -a
 ```
