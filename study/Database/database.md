@@ -2,7 +2,7 @@
 
 ## Basic
 
-- [SLQ 기초](./Basic/intro.md)
+- [SQL 기초](./Basic/intro.md)
 - [서브쿼리](./Basic/subquery.md)
 - [실행계획](./Basic/%EC%8B%A4%ED%96%89%EA%B3%84%ED%9A%8D%EC%9D%B4%EB%9E%80.md)
 
