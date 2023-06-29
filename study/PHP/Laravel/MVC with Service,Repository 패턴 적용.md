@@ -11,13 +11,17 @@
 3. Model에 어떤 메소드가 구현되어있고, 어떻게 사용해야되는지 알 수 없었습니다. 해당 문제를 해결하기 위해 Interface를 통해 구현 메소드와 사용을 강제시켰습니다.
 
 ## Service & Repository
+
 ### Service
+
 - `Controller Layer`에서 `Service Layer`를 호출하며 비지니스 로직을 수행하며 데이터를 가공해 `Repository Layer`를 호출한다.
 
 ### Repository
-- `Service Layer`에서 `Repository Layer`를 호출하며 DB 트랜잭션(CRUD)을 실행한다.
+
+- `Service Layer`에서 `Repository Layer`를 호출하며 (CRUD)를 실행한다.
 
 ## 초기 셋팅
+
 ```bash
 # Laravel 프로젝트 생성
 laravel new Laravel-Service-Repository-Patten
@@ -27,6 +31,7 @@ php artisan make:model Test -mcr
 ```
 
 .env
+
 ```bash
 # .env에 DB 설정
 DB_CONNECTION=mysql
@@ -38,13 +43,16 @@ DB_PASSWORD=
 ```
 
 ## Route
+
 ```php
 # app\routes\web.php
 Route::resource('/test', TestController::class);
 ```
 
 ## Migration
+
 테스트 테이블 생성을 위해 Migration을 준비합니다.
+
 ```php
 # database\migrations\<data>_create_tests_table.php
 public function up()
@@ -60,11 +68,13 @@ public function up()
 ```
 
 Migration을 실행합니다.
+
 ```bash
 php artisan migrate
 ```
 
 ## Model
+
 tests Model 모델 컨벤션을 정의합니다.
 
 ```php
@@ -141,6 +151,7 @@ class TestRepository implements TestRepositoryInterface
 수동으로 폴더를 만들고 생성해줘야됩니다.
 
 인터페이스에서 정의한대로 구현해줍니다.
+
 ```php
 # App\Repository\TestRepository.php
 <?php
@@ -336,6 +347,7 @@ class TestService
 ```
 
 ## Controller
+
 ```php
 # app\Http\Controllers\TestController.php
 <?php
@@ -486,6 +498,7 @@ class TestController extends Controller
 ## Interface와 Repository 바인딩
 
 Service Container에 바인딩을하기 위한 Provider 생성
+
 ```bash
 php artisan make:provider RepositoryServiceProvider
 ```
@@ -525,6 +538,7 @@ class RepositoryServiceProvider extends ServiceProvider
 ```
 
 Provider 등록
+
 ```php
 # config/app.php
 'providers' => [
@@ -537,6 +551,7 @@ Provider 등록
 ```
 
 ## Postman으로 API 테스팅
-라라벨에서 PUT,PATCH 메소드는 POST메소드로 사용해야되고 _method에 PUT 또는 PATCH값을 담아서 보내야됩니다.
+
+라라벨에서 PUT,PATCH 메소드는 POST메소드로 사용해야되고 \_method에 PUT 또는 PATCH값을 담아서 보내야됩니다.
 
 ![content_laravel_service_repository_postman.png](/study/assets/content_laravel_service_repository_postman.png)
