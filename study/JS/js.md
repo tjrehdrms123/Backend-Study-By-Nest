@@ -11,6 +11,11 @@
 - [[ FSFilesAdapter ]Parse Error spawn ps ENOENT](./Node.js/PM2/Error/%5B%20FSFilesAdapter%20%5DParse%20Error%20spawn%20ps%20ENOENT.md)
 - [PM2 구성파일로 관리하기](./Node.js/PM2/Error/PM2%20%EA%B5%AC%EC%84%B1%ED%8C%8C%EC%9D%BC%EB%A1%9C%20%EA%B4%80%EB%A6%AC%ED%95%98%EA%B8%B0.md)
 
+### Error
+
+- [CORS header contains multiple values](./Node.js/Error/CORS%20header%20contains%20multiple%20values.md)
+- [mysql2 with “Too many connections”](./Node.js/Error/mysql2%20with%20%E2%80%9CToo%20many%20connections%E2%80%9D.md)
+
 ## Nest
 
 ### Basic
