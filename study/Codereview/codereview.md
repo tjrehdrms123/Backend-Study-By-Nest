@@ -11,3 +11,5 @@
 ### 디자인 패턴
 
 - [MVC패턴 Controller에서 Controller호출을 해야될까?](./MVC%ED%8C%A8%ED%84%B4%20Controller%EC%97%90%EC%84%9C%20Controller%ED%98%B8%EC%B6%9C%EC%9D%84%20%ED%95%B4%EC%95%BC%EB%90%A0%EA%B9%8C.md)
+
+- [관습적 추상화](./관습적%20추상화.md)
