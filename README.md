@@ -19,6 +19,6 @@
 
 - [📌DataStructure](/study/DataStructure/datastructure.md)
 
-- [📌CodeingTest](./study/CodeingTest/codeingtest.md)
+- [📌CodingTest](./study/CodeingTest/codeingtest.md)
 
 - [📌ETC](./study/ETC/etc.md)
