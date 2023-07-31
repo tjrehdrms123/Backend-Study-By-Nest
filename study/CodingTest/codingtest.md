@@ -1,6 +1,6 @@
 # CloudServer
 
-## CodeingTest
+## CodingTest
 
 ### Backjoon
 

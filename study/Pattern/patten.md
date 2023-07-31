@@ -7,3 +7,7 @@
 ### Facade
 
 - [파사드 패턴](./Facade/Facade%20Patten.md)
+
+### Testing
+
+- [Testing AAA, GWT패턴 설명](./Test/AAA%20Pattten%20vs%20GWT%20Patten.md)
