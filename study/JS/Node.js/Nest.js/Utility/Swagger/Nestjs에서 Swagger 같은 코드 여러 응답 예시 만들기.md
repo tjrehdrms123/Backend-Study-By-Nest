@@ -1,7 +1,13 @@
 # Nestjs에서 Swagger 같은 코드 여러 응답 예시 만들기
 
+
 Nest.js 애플리케이션에서 Swagger 문서에 대한 응답 예시를 다양하게 생성하는 데에 있어서 문제가 있었습니다.
 특히 @ApiProperty 데코레이터를 이용하여 응답 예시를 명시하는데 있어서 다음과 같은 문제들이 발생했습니다
+
+## 목록
+1. [Nestjs에서 Swagger 같은 코드 여러 응답 예시 만들기](./Nestjs%EC%97%90%EC%84%9C%20Swagger%20%EA%B0%99%EC%9D%80%20%EC%BD%94%EB%93%9C%20%EC%97%AC%EB%9F%AC%20%EC%9D%91%EB%8B%B5%20%EC%98%88%EC%8B%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
+2. [Nestjs에서 Swagger 같은 코드 여러 응답 예시 만들기 - 성공 응답 데코레이터](./Nestjs%EC%97%90%EC%84%9C%20Swagger%20%EA%B0%99%EC%9D%80%20%EC%BD%94%EB%93%9C%20%EC%97%AC%EB%9F%AC%20%EC%9D%91%EB%8B%B5%20%EC%98%88%EC%8B%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20-%20%EC%84%B1%EA%B3%B5%20%EC%9D%91%EB%8B%B5%20%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0.md)
+3. [Nestjs에서 Swagger 같은 코드 여러 응답 예시 만들기 - 에러 응답 데코레이터](./Nestjs%EC%97%90%EC%84%9C%20Swagger%20%EA%B0%99%EC%9D%80%20%EC%BD%94%EB%93%9C%20%EC%97%AC%EB%9F%AC%20%EC%9D%91%EB%8B%B5%20%EC%98%88%EC%8B%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20-%20%EC%97%90%EB%9F%AC%20%EC%9D%91%EB%8B%B5%20%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0.md)
 
 ## 발생한 문제점
 
@@ -26,7 +32,7 @@ Nest.js 애플리케이션에서 Swagger 문서에 대한 응답 예시를 다�
 4. Generic 타입에 대한 지원 부족: Generic 타입이 포함된 응답 스키마를 처리하는데 어려움이 있었습니다.
 5. Enum 타입의 처리: Enum 타입에 대한 처리가 어려워서 예시 값의 타입을 정확히 매핑하기 어려웠습니다.
 
-이러한 문제들을 해결하기 위해 `@SuccessResponse`와 `@ErrorResponse`와 같은 `커스텀 데코레이터를 만들고, makeInstanceByApiProperty 함수를 활용하여 메타데이터를 기반으로 동적인 예시 응답 객체를 생성하는 방법을 도입할 예정입니다.
+이러한 문제들을 해결하기 위해 `@SuccessResponse`와 `@ErrorResponse`와 같은 커스텀 데코레이터를 만들고, makeInstanceByApiProperty 함수를 활용하여 메타데이터를 기반으로 동적인 예시 응답 객체를 생성하는 방법을 도입할 예정입니다.
 
 ## 커스텀 데코레이터 SuccessResponse, ErrorResponse의 기능
 
@@ -47,7 +53,7 @@ Nest.js 애플리케이션에서 Swagger 문서에 대한 응답 예시를 다�
     exampleTitle: '유저 조회 성공 예시',
     exampleDescription: '유저 조회 성공 예시',
     overwriteValue: {
-    guardian_id: ResGuardianMetaData
+      guardian_id: ResGuardianMetaData
     }
 }
 ])
