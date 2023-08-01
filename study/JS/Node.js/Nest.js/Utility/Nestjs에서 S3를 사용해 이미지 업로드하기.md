@@ -1,4 +1,4 @@
-![](https://lime-demo.s3.amazonaws.com/posts/1674986712348_nest.png)
+![](/study/assets/thumbnail_nestjs.png)
 # Nestjs에서 S3를 사용해 이미지 업로드하기 with React toast-ui
 
 ### 1. 필요한 패키지 설치
@@ -125,7 +125,7 @@ async uploadUserImg(
 ### API Testing
 > Nest Test를 통해 문제 없이 동작되는 지 테스트를 진행해보겠습니다.
 > 문제 없이 통과한 것을 확인 할 수 있습니다.
-![image.png](https://lime-demo.s3.amazonaws.com/posts/1678788234851_image.png)
+![image.png](/study/assets/content_nestjs_s3_test.png)
 ```js
 describe('/posts/editor/upload : (POST) : 블로그 에디터 이미지 업로드', ()=>{
     it('블로그 에디터 이미지 업로드 성공 테스트', async () => {

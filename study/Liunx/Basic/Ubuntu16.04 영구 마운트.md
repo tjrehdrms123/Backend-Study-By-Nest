@@ -1,4 +1,4 @@
-![](https://lime-demo.s3.amazonaws.com/posts/1674494837968_img.png)
+![](/study/assets/thumbnail_linux.png)
 
 # Ubuntu 16.04 Disk 영구 마운트
 

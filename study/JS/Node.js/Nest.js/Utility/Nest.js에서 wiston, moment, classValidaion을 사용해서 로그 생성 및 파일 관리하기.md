@@ -1,4 +1,4 @@
-![](https://lime-demo.s3.amazonaws.com/posts/1674986712348_nest.png)
+![](/study/assets/thumbnail_nestjs.png)
 
 # Nest.js에서 wiston, moment, classValidaion을 사용해서 로그 생성 및 파일 관리하기
 
@@ -110,4 +110,4 @@ export const customMessageConvert = (property: string, type: string) => {
 ```
 
 ### 5. 로그 파일 생성 확인
-![image.png](https://lime-demo.s3.amazonaws.com/posts/1678788630086_image.png)
+![image.png](/study/assets/content_nestjs_winston_log.png)

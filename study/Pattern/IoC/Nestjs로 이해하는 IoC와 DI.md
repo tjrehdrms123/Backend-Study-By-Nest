@@ -1,4 +1,4 @@
-![](https://lime-demo.s3.amazonaws.com/posts/1678377296781_1675076116613_nest.png)
+![](/study/assets/thumbnail_nestjs.png)
 
 # Nestjs로 이해하는 IoC와 DI
 

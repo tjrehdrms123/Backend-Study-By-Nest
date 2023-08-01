@@ -1,7 +1,7 @@
-![](https://lime-demo.s3.amazonaws.com/posts/1678636171376_32305_27384_5151.jpg)
+![](/study/assets/thumbnail_codereview.jpg)
 
 # [ 코드 리뷰 ] 설문 DB 설계
-![20230320_183636.png](https://lime-demo.s3.amazonaws.com/posts/1679305019020_20230320_183636.png)
+![20230320_183636.png](/study/assets/content_codereview_survey.png)
 > 해당 설문지는 구글 강의 설문지 입니다.
 
 > 구글 설문지를 커스텀하게 구현하려고했을때 막혔던 DB 테이블 설계에 대해 공유해보려고합니다. 

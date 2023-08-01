@@ -1,4 +1,4 @@
-![](https://lime-demo.s3.amazonaws.com/posts/1678604862618_nest.png)
+![](/study/assets/thumbnail_nestjs.png)
 
 # Nestjs의 Request lifecycle과 AOP
 

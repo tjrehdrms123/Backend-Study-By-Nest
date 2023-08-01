@@ -6,7 +6,7 @@
 
 
 **CloudWatch에 대한 로그입니다 Cpu, 서버로 접근하는 Network가 비선형적으로 증가했습니다**
-![](https://lime-demo.s3.amazonaws.com/posts/1674494551677_aws_log.png)
+![](/study/assets/content_liunx_bot_graph.png)
 
 **예상해 볼 수 있는 원인에 대해서**
 

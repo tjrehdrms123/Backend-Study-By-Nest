@@ -1,4 +1,4 @@
-![](https://lime-demo.s3.amazonaws.com/posts/1675076116613_nest.png)
+![](/study/assets/thumbnail_nestjs.png)
 
 # Nestjs e2e 테스트 세팅 및 후기
 
@@ -83,7 +83,7 @@ describe("/user/register : (POST) : 유저회원가입 테스트", () => {
 });
 ```
 
-![](https://lime-demo.s3.amazonaws.com/posts/1675076947431_%C3%AD%C2%85%C2%8C%C3%AC%C2%8A%C2%A4%C3%AD%C2%8A%C2%B8%C3%AC%C2%84%C2%B1%C3%AA%C2%B3%C2%B5.PNG)
+![](/study/assets/content_nestjs_test_jest.png)
 
 ### 3\. Try & Catch 개선
 
