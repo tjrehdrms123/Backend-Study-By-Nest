@@ -1,4 +1,4 @@
-# Nestjs에서 Swagger 성공 응답 예시 만들기
+# Nestjs에서 Swagger 에러 응답 예시 만들기
 
 ## 목록
 1. [Nestjs에서 Swagger 같은 코드 여러 응답 예시 만들기](./Nestjs%EC%97%90%EC%84%9C%20Swagger%20%EA%B0%99%EC%9D%80%20%EC%BD%94%EB%93%9C%20%EC%97%AC%EB%9F%AC%20%EC%9D%91%EB%8B%B5%20%EC%98%88%EC%8B%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
