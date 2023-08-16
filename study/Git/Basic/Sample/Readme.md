@@ -1,4 +1,4 @@
-# 멍냥뿌지 Backend<img src="/assets/content_git_readme_logo.png" align=left width="100" alt="Nest Logo" />
+# 멍냥뿌지 Backend<img src="./content_git_readme_logo.png" align=left width="100" alt="Nest Logo" />
 
 > 멍냥뿌지는 자신의 반려동물을 소개하고 반려동물의 QR을 발급해 사용할 수 있습니다.
 
