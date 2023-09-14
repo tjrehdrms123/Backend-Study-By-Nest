@@ -1,24 +1,32 @@
-# 🔥 Today I Learned(TIL)    🔥             
-- [📌JS](./study/JS/js.md)
+# 🔥 Today I Learned(TIL) 🔥  <img src="./logo.png" align=left width="100" alt=" Logo" />
 
-- [📌PHP](./study/PHP/php.md)
+> 꾸준하게 학습하고, 공부한것을 기록합니다.
 
-- [📌CloudServer](./study/CloudServer/cloudserver.md)
+<br/>
 
-- [📌Database](./study/Database/database.md)
+# 📂 카테고리
+### ├── 📝 [JS](./study/JS/js.md)
 
-- [📌Liunx](./study/Liunx/liunx.md)
+### ├── 📝 [PHP](./study/PHP/php.md)
 
-- [📌Network](./study/Network/network.md)
+### ├── 📝 [Database](./study/Database/database.md)
 
-- [📌Os](./study/Os/network.md)
+### ├── 📝 [CloudServer](./study/CloudServer/cloudserver.md)
+### ├── 📝 [Liunx](./study/Liunx/liunx.md)
 
-- [📌Paradigm](./study/Paradigm/paradigm.md)
+### ├── 📝 [Network](./study/Network/network.md)
 
-- [📌Patten](./study/Pattern/patten.md)
+### ├── 📝 [Os](./study/Os/os.md)
 
-- [📌DataStructure](/study/DataStructure/datastructure.md)
+### ├── 📝 [Paradigm](./study/Paradigm/paradigm.md)
 
-- [📌CodingTest](./study/CodeingTest/codeingtest.md)
+### ├── 📝 [Patten](./study/Pattern/patten.md)
 
-- [📌ETC](./study/ETC/etc.md)
+### ├── 📝 [DataStructure](/study/DataStructure/datastructure.md)
+
+### ├── 📝 [CodingTest](./study/CodingTest/codingtest.md)
+### ├── 📝 [Git](./study/Git/)
+
+### ├── 📝 [CodeReview](./study/Codereview/codereview.md)
+
+### └── 📝 [ETC](./study/ETC/etc.md)
