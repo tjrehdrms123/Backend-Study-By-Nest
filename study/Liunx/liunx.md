@@ -9,6 +9,9 @@
 6. [추가로 연결한 Disk가 있다면 Disk 마운트](./Basic/Disk%20%EB%A7%88%EC%9A%B4%ED%8A%B8.md)
 7. [Docker 설치](./Basic/Docker%20%EC%84%A4%EC%B9%98.md)
 
+### Error
+-[Couldn't create temporary file /tmp/apt.conf 에러](./Error/Couldn't%20create%20temporary%20file%20%EC%97%90%EB%9F%AC%20.md)
+-[curl error setting certificate verify locations 에러](./Error/curl%20error%20setting%20certificate%20verify%20locations%20%EC%97%90%EB%9F%AC.md)
 ## 📝 Webserver
 
 - [Apache VirtualHost 설정](./Webserver/Apache/virtualhost.md)
