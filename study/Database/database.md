@@ -11,7 +11,7 @@
 
 ## 📝 Index 시리즈
 
-- [1. Index 란 무엇인가?](./Basic/index/1.Index%20란%20무엇인가?.md)
+- [1. Index 란 무엇인가?](./Basic/index/1.Index%20%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)
 - [2.B-Tree index](./Basic/index/2.B-Tree%20index.md)
 - [3.index와 DML의 관계](./Basic/index/3.index와%20DML관계.md)
 - [4.Index 숫자와 문자의 변환에 대하여](./Basic/index/4.Index%20숫자와%20문자의%20변환에%20대하여.md)
