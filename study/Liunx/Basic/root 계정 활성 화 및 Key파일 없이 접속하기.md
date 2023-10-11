@@ -9,7 +9,7 @@ su passwd root
 ```bash
 # vi /etc/ssh/sshd_config 
 PermitRootLogin yes 
-yesPasswordAuthentication yes
+PasswordAuthentication yes
 ```
 
 ### root 로그인 허용 (ec2)
