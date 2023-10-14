@@ -12,7 +12,3 @@
 - [AWS Abuse Report with work32](./AWS/Error/AWS%20Abuse%20Report%20with%20work32.md)
 - [AWS 인스턴스 연결성 검사 실패 [프리티어 초과]](./AWS/Error/AWS%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%97%B0%EA%B2%B0%EC%84%B1%20%EA%B2%80%EC%82%AC%20%EC%8B%A4%ED%8C%A8%20%5B%ED%94%84%EB%A6%AC%ED%8B%B0%EC%96%B4%20%EC%B4%88%EA%B3%BC%5D.md)
 - [Instance does not have a volume attached at root](./AWS/Error/Instance%20does%20not%20have%20a%20volume%20attached%20at%20root.md)
-
-### Etc
-
-- [AWS-Certified-Cloud-Practitioner자격증 공부](./AWS/etc/AWS-Certified-Cloud-Practitioner%EC%9E%90%EA%B2%A9%EC%A6%9D%20%EA%B3%B5%EB%B6%80.md)

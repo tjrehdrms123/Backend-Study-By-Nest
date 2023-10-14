@@ -23,3 +23,9 @@
 
 - [Firebase 앱 푸시](./Process/Firebase%20%EC%95%B1%20%ED%91%B8%EC%8B%9C.md)
 - [딥링크](./Process/%EB%94%A5%EB%A7%81%ED%81%AC.md)
+
+## 📝 Certificate
+
+- [AWS-Certified-Cloud-Practitioner자격증 공부](./Certificate/aws/AWS-Certified-Cloud-Practitioner자격증%20공부.md)
+
+- [정보처리기사 자격증 공부](./Certificate/정보처리기사/정보처리기사.md)
