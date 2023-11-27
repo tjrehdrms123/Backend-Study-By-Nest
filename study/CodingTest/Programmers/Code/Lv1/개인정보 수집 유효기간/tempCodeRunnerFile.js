@@ -1,1 +1,0 @@
-&& remainDay >= 0
