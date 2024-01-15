@@ -1,5 +1,9 @@
 # 📂 JS
 
+- [map 함수 예제](./Basic/map%20reduce%20filter%20사용%20및%20활용/map/map.md)
+- [filter 함수 예제](./Basic/map%20reduce%20filter%20사용%20및%20활용/filter/filter.md)
+- [reduce 함수 예제](./Basic/map%20reduce%20filter%20사용%20및%20활용/reduce/reduce.md)
+
 ## 📝 Node.js
 
 ### Utility
@@ -35,17 +39,19 @@
   - [Nestjs에서 Swagger 같은 코드 여러 응답 예시 만들기 - 성공 응답 데코레이터](https://github.com/tjrehdrms123/TIL/blob/main/study/JS/Node.js/Nest.js/Utility/Swagger/Nestjs%EC%97%90%EC%84%9C%20Swagger%20%EA%B0%99%EC%9D%80%20%EC%BD%94%EB%93%9C%20%EC%97%AC%EB%9F%AC%20%EC%9D%91%EB%8B%B5%20%EC%98%88%EC%8B%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20-%20%EC%84%B1%EA%B3%B5%20%EC%9D%91%EB%8B%B5%20%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0.md)
   - [Nestjs에서 Swagger 같은 코드 여러 응답 예시 만들기 - 에러 응답 데코레이터](https://github.com/tjrehdrms123/TIL/blob/main/study/JS/Node.js/Nest.js/Utility/Swagger/Nestjs%EC%97%90%EC%84%9C%20Swagger%20%EA%B0%99%EC%9D%80%20%EC%BD%94%EB%93%9C%20%EC%97%AC%EB%9F%AC%20%EC%9D%91%EB%8B%B5%20%EC%98%88%EC%8B%9C%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20-%20%EC%97%90%EB%9F%AC%20%EC%9D%91%EB%8B%B5%20%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0.md)
 - [Class-Validation 응답 key value 형태로 내보내기](https://github.com/tjrehdrms123/TIL/blob/main/study/JS/Node.js/Nest.js/Utility/Class-Validation%20%EC%9D%91%EB%8B%B5%20key%20value%20%ED%98%95%ED%83%9C%EB%A1%9C%20%EB%82%B4%EB%B3%B4%EB%82%B4%EA%B8%B0.md)
+
 ### Error
 
 - [Cannot read_property 'set' of undefined](./Node.js/Nest.js/Error/Cannot%20read_property%20'set'%20of%20undefined.md)
 - [items.map is not a functio](./Node.js/Nest.js/Error/items.map%20is%20not%20a%20functio.md)
 - [Nestjs With Adminjs Mongoose Error given id types](./Node.js/Nest.js/Error/Nestjs%20With%20Adminjs%20Mongoose%20Error%20given%20id%20types.md)
+
 ## 📝 React
 
 ### Utility
 
 - [React SEO 설정 끝장내기](./React.js/Utility/React%20SEO%20%EC%84%A4%EC%A0%95%20%EB%81%9D%EC%9E%A5%EB%82%B4%EA%B8%B0.md)
- 
+
 ## 📝 TS
 
 - [데코레이터와 리플랙션](./TS/%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0%EC%99%80%20%EB%A6%AC%ED%94%8C%EB%9E%99%EC%85%98.md)

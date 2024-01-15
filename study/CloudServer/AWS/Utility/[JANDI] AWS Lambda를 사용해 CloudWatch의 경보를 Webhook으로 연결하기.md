@@ -18,21 +18,23 @@
 
 ![image.png](/study/assets/content_aws_jandi_webhook01.png)
 
-> CloudWatch를 검색 후 경보 생성을 클릭한다.
+CloudWatch를 검색 후 경보 생성을 클릭한다.
 
 ![image.png](/study/assets/content_aws_jandi_webhook02.png)
 
-> 원하는 지표를 선택합니다. 다음 스텝에서 지표에 대한 조건을 설정할 수 있습니다.
+원하는 지표를 선택합니다. 다음 스텝에서 지표에 대한 조건을 설정할 수 있습니다.
 
 ![image.png](/study/assets/content_aws_jandi_webhook03.png)
 
-> 위 예제에서는 CPU 사용률이 40보다 클떄로 조건을 설정했습니다.
+위 예제에서는 CPU 사용률이 40보다 클떄로 조건을 설정했습니다.
 
 ### 2\. 경보를 Lambda에 등록
 
 ![image.png](/study/assets/content_aws_jandi_webhook04.png)
 
-> 트리거 추가 버튼을 클릭 후 등록했던 CloudWatch 경보를 추가합니다. 추가하게되면 트리거 메뉴에서 상세한 정보를 볼수 있습니다. 자세히 보셔야될 부분은 `CloudWatch Alarm State Change` CloudWatch 알림 상태가 변경되면 트리거가 동작되는 상세 타입 부분입니다.
+트리거 추가 버튼을 클릭 후 등록했던 CloudWatch 경보를 추가합니다. 추가하게되면 트리거 메뉴에서 상세한 정보를 볼수 있습니다.
+
+자세히 보셔야될 부분은 `CloudWatch Alarm State Change` CloudWatch 알림 상태가 변경되면 트리거가 동작되는 상세 타입 부분입니다.
 
 ### JANDI에서 제공하는 Webhook 양식
 
@@ -62,7 +64,7 @@
 
 ### 규격에 맞게 Lambda코드 작성
 
-> 아래처럼 트리거가 동작했을때 axios로 요청을 보내주도록 작성했습니다.
+아래처럼 트리거가 동작했을때 axios로 요청을 보내주도록 작성했습니다.
 
 ```js
 exports.handler = async (event, context) => {
