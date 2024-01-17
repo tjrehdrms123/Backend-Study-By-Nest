@@ -1,6 +1,6 @@
 # 🔥 Today I Learned(TIL) 🔥 <img src="./logo.png" align=left width="100" alt="TIL Logo" />
  
-> 꾸준하게 학습하고, 공부한것을 기록합니다.       
+> 꾸준하게 학습하고, 공부한것을 기록합니다.        
  
 <br/>
 
